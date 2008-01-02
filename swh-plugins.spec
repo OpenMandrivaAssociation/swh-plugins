@@ -6,6 +6,7 @@ License: GPL
 Group: Sound
 Source: http://plugin.org.uk/releases/%version/%name-%version.tar.bz2
 Patch: swh-plugins-0.4.4-build.patch
+BuildRoot: %_tmppath/%{name}-buildroot
 BuildRequires: ladspa-devel fftw-devel
 URL: http://plugin.org.uk/
 %description
