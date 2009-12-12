@@ -5,7 +5,7 @@ Release: %mkrel 5
 License: GPL
 Group: Sound
 Source: http://plugin.org.uk/releases/%version/%name-%version.tar.bz2
-Patch: swh-plugins-0.4.4-build.patch
+Patch: swh-plugins-0.4.15-build.patch
 BuildRoot: %_tmppath/%{name}-buildroot
 BuildRequires: ladspa-devel fftw-devel
 URL: http://plugin.org.uk/
@@ -15,7 +15,7 @@ details).
 
 %prep
 %setup -q
-%patch -p1
+%patch -p1 -b .build
 
 %build
 %configure2_5x
