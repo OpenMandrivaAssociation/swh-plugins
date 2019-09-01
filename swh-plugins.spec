@@ -22,11 +22,11 @@ details).
 
 %build
 ./autogen.sh
-%configure2_5x
-%make CFLAGS="%{optflags} -fPIC"
+%configure
+%make_build CFLAGS="%{optflags} -fPIC"
 
 %install
-%makeinstall_std
+%make_install
 
 %find_lang %name
 
