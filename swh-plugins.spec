@@ -1,7 +1,7 @@
 Summary: A set of audio plugins for LADSPA
 Name: swh-plugins
 Version: 0.4.17
-Release: 1
+Release: 2
 License: GPL
 Group: Sound
 URL: http://plugin.org.uk/
