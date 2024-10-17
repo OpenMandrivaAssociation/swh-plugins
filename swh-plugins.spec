@@ -4,7 +4,7 @@ Version: 0.4.17
 Release: 3
 License: GPL
 Group: Sound
-URL: http://plugin.org.uk/
+URL: https://plugin.org.uk/
 # Source was moved from plugin.org.uk to github
 Source: https://github.com/swh/ladspa/releases/tag/ladspa-%{version}.tar.gz
 
