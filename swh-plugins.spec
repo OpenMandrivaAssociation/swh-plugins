@@ -8,6 +8,11 @@ URL: https://plugin.org.uk/
 # Source was moved from plugin.org.uk to github
 Source: https://github.com/swh/ladspa/releases/tag/ladspa-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: ladspa-devel 
 BuildRequires: pkgconfig(fftw3)
 BuildRequires: perl-XML-Parser
